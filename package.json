@@ -1,0 +1,18 @@
+{
+  "name": "vue-express-firebase-cloud-functions-and-hosting",
+  "version": "1.0.0",
+  "description": "Template for Vue applications + Express with deploy in Firebase Hosting and Cloud Functions",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run shutdown && concurrently \"cd vue && npm run dev\" \"firebase emulators:start\"",
+    "build:hosting": "cd vue && npm run build",
+    "deploy": "cd vue && npm run build && cd .. && firebase deploy",
+    "shutdown": "node shutdown.js"
+  },
+  "author": "Elias Trizotti",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.2.2",
+    "nodemon": "^2.0.16"
+  }
+}
