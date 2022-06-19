@@ -1,6 +1,6 @@
 # Vue + Firebase with Express
 
-This template allows you to create a Vue application that is deployed to Hosting and also deploy an Express application to Cloud Functions.
+This template allows you to create a Vue SPA application that is deployed to Hosting and also deploy an Express application to Cloud Functions.
 
 # Setup
 
@@ -17,6 +17,10 @@ If Firebase CLI does not recognize your project setup, just run the following co
 ```
 firebase use <YOUR-PROJECT-ID>
 ```
+
+# Using the API
+To get the API base URL just use the 'useApiBaseUrl' composable to get a baseUrl string.
+
 
 # Deploy
 ```
