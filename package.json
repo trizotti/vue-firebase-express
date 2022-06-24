@@ -4,6 +4,7 @@
   "description": "Template for Vue applications + Express with deploy in Firebase Hosting and Cloud Functions",
   "main": "index.js",
   "scripts": {
+    "setup": "npm i && concurrently \"cd vue && npm i\" \"cd functions && npm i\"",
     "dev": "npm run shutdown && concurrently \"cd vue && npm run dev\" \"firebase emulators:start\"",
     "build:hosting": "cd vue && npm run build",
     "deploy": "cd vue && npm run build && cd .. && firebase deploy",
