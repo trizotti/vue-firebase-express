@@ -5,6 +5,11 @@ This template allows you to create a Vue SPA application that is deployed to Hos
 # Setup
 
 You need to install the Firebase CLI and also be logged in. Then you need to insert your project ID into the '.firebaserc' file.
+The next step is to run the following command:
+
+```
+npm run setup
+```
 
 # Development
 
