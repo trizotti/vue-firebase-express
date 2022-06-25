@@ -1,4 +1,4 @@
-# Vue + Firebase with Express
+# Vue SPA + Firebase with Express
 
 This template allows you to create a Vue SPA application that is deployed to Hosting and also deploy an Express application to Cloud Functions.
 
