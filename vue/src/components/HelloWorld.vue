@@ -2,8 +2,8 @@
 defineProps({
   msg: {
     type: String,
-    required: true
-  }
+    required: true,
+  },
 })
 </script>
 
@@ -14,8 +14,12 @@ defineProps({
       You’ve successfully created a project with
       <a target="_blank" href="https://vitejs.dev/">Vite</a> +
       <a target="_blank" href="https://vuejs.org/">Vue 3</a> +
-      <a target="_blank" href="https:firebase.google.com/">Firebase</a>.
-      Your Express code is handled by Cloud Functions and your built Vue app is deployed to Hosting.
+      <a target="_blank" href="https:firebase.google.com/">Firebase</a>. Your
+      Express code is handled by Cloud Functions and your built Vue app is
+      deployed to Hosting. Enjoy building the UI with
+      <a target="_blank" href="https://quasar.dev/vue-components"
+        >Quasar components</a
+      >.
     </h3>
   </div>
 </template>
